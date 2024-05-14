@@ -1,0 +1,56 @@
+body {
+  background-color: #baffff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.parent {
+  padding: 20px;
+  border-radius: 20px;
+  background: #cfd38a;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: ;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid white;
+}
+
+.details {
+}
+
+.i-holder {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: #e4e7e6;
+  border-radius: 50%;
+  justify-content: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+i {
+  color: rgb(174, 180, 183);
+  align-self: center;
+}
+
+.user-job {
+  font-weight: 600;
+  font-size: 115%;
+}
