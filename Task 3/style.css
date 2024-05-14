@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #bfe4f0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.s-aside {
+  background-color: #6ad56b;
+  padding: 10px;
+}
