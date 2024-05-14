@@ -46,6 +46,7 @@ body {
 }
 
 i {
+  color: red;
   color: rgb(174, 180, 183);
   align-self: center;
 }
