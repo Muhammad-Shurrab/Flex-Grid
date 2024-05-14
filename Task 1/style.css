@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  text-align: center;
+  background: aqua;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 150px 150px 100px 50px;
+}
+
+.section-1 {
+  grid-column: 1/-1;
+  background-color: red;
+}
+
+.section-2 {
+  background-color: blueviolet;
+}
+.section-3 {
+  background-color: yellow;
+}
+
+.m-parent {
+  grid-column: 2/-1;
+}
+
+.main-content {
+  background-color: brown;
+  height: 240px;
+}
+.extr-content {
+  background-color: green;
+  height: 150px;
+}
+
+.r-images {
+  grid-column: 1/2;
+  grid-row: 4;
+  background-color: burlywood;
+}
+
+.extr-content {
+  background-color: cadetblue;
+  grid-column: 1/-2;
+}
+
+.footer {
+  grid-row: 6/7;
+  grid-column: 1/-1;
+  background-color: chartreuse;
+}
